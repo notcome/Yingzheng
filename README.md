@@ -25,7 +25,7 @@ The future version will include a more complicated yet powerful ``.yingzheng.con
 
 ---
 
-The javascript plugin should be named as ``.yingzheng.plugin.js`` and have an interface ``entry (files)``. ``files`` is an array consisting of each file's relative path.
+The javascript plugin should be named as ``.yingzheng.plugin.js`` and have an interface ``entry (newFiles, deletedFiles)``. ``newFiles`` is an array consisting of each new/modified file's relative path, while ``deletedFiles`` consisting of every deleted file's.
 
 ---
 
@@ -36,4 +36,4 @@ node path-to-yingzheng.js/yingzheng.js work-path
 
 ```
 
-The work path should not have a directory called ``.yingzheng``, which is used to store track information.
+The work path should not have a directory called ``.yingzheng``, which will be used to store track information.
