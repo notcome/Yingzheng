@@ -26,3 +26,14 @@ The future version will include a more complicated yet powerful ``.yingzheng.con
 ---
 
 The javascript plugin should be named as ``.yingzheng.plugin.js`` and have an interface ``entry (files)``. ``files`` is an array consisting of each file's relative path.
+
+---
+
+You can run the program with the following command.
+
+```
+node path-to-yingzheng.js/yingzheng.js work-path
+
+```
+
+The work path should not have a directory called ``.yingzheng``, which is used to store track information.
